@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 25px;
+    line-height: 1.5;
+    padding: 0;
+    margin: auto;    
+    background: linear-gradient(180deg, #1FA2FF, #12D8FA, #A6FFCB);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+#particles-js {
+    /* width: 100%;
+    height: 100%;
+    overflow: hidden; */
+
+    width: 100vw;
+    height: 100vh;      
+    /* z-index: -1 !important; */
+    overflow: hidden;
+    position: absolute;
+    pointer-events: all;
+}
+
+#introduction {
+    position: absolute;
+    /* left: 0; */
+    top: 35%;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    height: fit-content;
+}
+
+#showcase {
+    position: absolute;
+    top: 50%;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+}
+
+.social a:hover {
+    /* color: #ff2800; */
+    color: #1FA2FF
+}
+
+.learn-btn {
+    width: 100px;
+    height: 30px;
+    position: relative;
+    background-color: #ffffff;
+    text-align: center;
+    margin: auto;
+    color: #1FA2FF;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.learn-btn:hover {
+    color: #ffffff;
+    background-color: #1FA2FF;
+}
+
+
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+
+@media only screen and (max-device-width: 480px) {
+    h1 {
+        font-size: 45px;
+    }
+}
+
+@media only screen and (max-device-width: 800px) {
+    h1 {
+        font-size: 45px;
+    }
+}
