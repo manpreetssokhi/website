@@ -30,6 +30,27 @@ body {
     overflow: auto;
 }
 
+nav {
+    float: right;
+    margin-top: 10px;
+}
+
+li {
+    float: left;
+    display: inline;
+    padding: 10px 10px 10px 10px;
+    font-size: 20px;
+}
+
+li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #89fffd;
+}
+
 /* boxes */
 #boxes {
     margin-top: 20px;
@@ -81,6 +102,6 @@ body {
         font-size: 12px;
     }
     .container {
-        margin-top: 40%;
+        margin-top: 5%;
     }
 }
